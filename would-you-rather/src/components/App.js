@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Login from './Login'
+import Dashboard from './Dashboard'
 import { handleInitialData } from '../actions/shared'
 
 class App extends Component {
@@ -10,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Login />
+        <Dashboard />
       </div>
     );
   }
